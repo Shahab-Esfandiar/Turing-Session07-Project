@@ -4,7 +4,7 @@
 
 ---
 
-  This project addresses the complexities of building a localized, voice-activated Software Engineering Agent. It solves two critical challenges in autonomous coding workflows: **Multi-modal State Orchestration (Voice-to-Code)** and **Token-Efficient Codebase Mutation (Deterministic Diffing)**.
+This project addresses the complexities of building a localized, voice-activated Agent. It solves two critical challenges in autonomous coding workflows: **Multi-modal State Orchestration (Voice-to-Code)** and **Token-Efficient Codebase Mutation (Deterministic Diffing)**.
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue.svg)
 ![LangGraph](https://img.shields.io/badge/LangGraph-State_Orchestration-orange.svg)
@@ -15,12 +15,12 @@
 
 ## 🎯 Project Overview
 
-This notebook implements a state-of-the-art interactive coding assistant entirely within a Jupyter environment. The system translates raw human speech into actionable developer intent, executing surgical code edits while maintaining a highly responsive, non-blocking Graphical User Interface.
+This notebook implements a interactive coding assistant entirely within a Jupyter environment. The system translates raw human speech into actionable developer intent, executing surgical code edits while maintaining a highly responsive, non-blocking Graphical User Interface.
 
 Key engineering achievements include:
 1. **Asynchronous Voice Modality:** A multi-threaded `pyaudio` ingestion engine that prevents Jupyter kernel lockups.
 2. **Cyclic Reasoning Engine:** A `LangGraph` state machine that intelligently routes between writing net-new code and patching existing logic.
-3. **Advanced IDE UI:** A symmetrical, Pygments-rendered interactive dashboard featuring live execution streaming and localized version control. Includes a formal **ADR (Architecture Decision Record)** detailing the engine's design.
+3. **Advanced IDE UI:** A symmetrical, Pygments-rendered interactive dashboard featuring live execution streaming and localized version control.
 
 ---
 
@@ -35,7 +35,7 @@ Implemented a highly intelligent, stateful architecture:
 2. **Agentic Routing:** The LLM acts as the central router. If the workspace is empty, it writes full code. If populated, it is mathematically constrained via Pydantic to invoke a patching tool.
 3. **Bulletproof Extraction:** Engineered a multi-pass regex and heuristic parser that ignores markdown hallucinations and conversational text (e.g., "Here is your code:"), guaranteeing that only executable Python syntax enters the workspace.
 
-> 📄 **Included:** A comprehensive **ADR** and **Research Report** detailing the architectural decisions behind cloud-offloaded compute and LangGraph orchestration constraints.
+> 📄 **Included:** An **ADR** and **Research Report** detailing the architectural decisions behind cloud-offloaded compute and LangGraph orchestration constraints.
 
 ---
 
