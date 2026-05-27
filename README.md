@@ -1,8 +1,10 @@
-# 🎤 Agentic Voice Coder: Autonomous Stateful Orchestration & Deterministic Code Mutation
+# 🎤 Agentic Voice Coder: Autonomous Stateful Orchestration & Code Mutation
 
+<img width="1306" height="696" alt="Screenshot 2026-05-27 221817" src="https://github.com/user-attachments/assets/8ec2d9d4-d2d4-47a5-8fc4-e090e836157b" />
 
+---
 
-This project addresses the complexities of building a localized, voice-activated Software Engineering Agent. It solves two critical challenges in autonomous coding workflows: **Multi-modal State Orchestration (Voice-to-Code)** and **Token-Efficient Codebase Mutation (Deterministic Diffing)**.
+  This project addresses the complexities of building a localized, voice-activated Software Engineering Agent. It solves two critical challenges in autonomous coding workflows: **Multi-modal State Orchestration (Voice-to-Code)** and **Token-Efficient Codebase Mutation (Deterministic Diffing)**.
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue.svg)
 ![LangGraph](https://img.shields.io/badge/LangGraph-State_Orchestration-orange.svg)
