@@ -61,7 +61,7 @@ The Jupyter interface was fundamentally re-engineered using `ipywidgets` and `th
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/YourUsername/Agentic-Voice-Coder.git](https://github.com/YourUsername/Agentic-Voice-Coder.git)
+git clone [https://github.com/Turing-Session07-Project.git](https://github.com/Turing-Session07-Project.git)
 cd Agentic-Voice-Coder
 ```
 
