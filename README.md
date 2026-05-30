@@ -15,7 +15,7 @@ This project addresses the complexities of building a localized, voice-activated
 
 ## 🎯 Project Overview
 
-This notebook implements a interactive coding assistant entirely within a Jupyter environment. The system translates raw human speech into actionable developer intent, executing surgical code edits while maintaining a highly responsive, non-blocking Graphical User Interface.
+The system translates raw human speech into actionable developer intent, executing surgical code edits while maintaining a highly responsive, non-blocking Graphical User Interface.
 
 Key engineering achievements include:
 1. **Asynchronous Voice Modality:** A multi-threaded `pyaudio` ingestion engine that prevents Jupyter kernel lockups.
